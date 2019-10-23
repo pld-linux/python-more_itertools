@@ -1,9 +1,10 @@
+# NOTE: 5.0.0 is the last version supporting python2; for later versions see python3-more_itertools.spec
 #
 # Conditional build:
 %bcond_without	doc	# Sphinx documentation
 %bcond_without	tests	# unit tests
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module [see python3-more_itertools.spec instead]
 
 Summary:	More routines for operating on iterables, beyond itertools
 Summary(pl.UTF-8):	Uzupełniające itertools dodatkowe funkcje do operowania na zmiennych iterowalnych
