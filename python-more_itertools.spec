@@ -10,7 +10,7 @@ Summary:	More routines for operating on iterables, beyond itertools
 Summary(pl.UTF-8):	Uzupełniające itertools dodatkowe funkcje do operowania na zmiennych iterowalnych
 Name:		python-more_itertools
 Version:	5.0.0
-Release:	2
+Release:	3
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/more_itertools/
