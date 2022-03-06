@@ -34,8 +34,8 @@ BuildRequires:	python3-six >= 1.0.0
 %endif
 %endif
 %if %{with doc}
-BuildRequires:	python3-sphinx_rtd_theme
-BuildRequires:	sphinx-pdg-3
+BuildRequires:	python-sphinx_rtd_theme
+BuildRequires:	sphinx-pdg-2
 %endif
 Requires:	python-modules >= 1:2.7
 BuildArch:	noarch
@@ -96,7 +96,7 @@ Dokumentacja API modułu Pythona more-itertools.
 
 %if %{with doc}
 %{__make} -C docs html \
-	SPHINXBUILD=sphinx-build-3
+	SPHINXBUILD=sphinx-build-2
 %endif
 
 %install
